@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import logo from '../assets/logo.png';
 
 import style from './styles/Header.module.css';
 import HeaderAlarmButton from './HeaderAlarmButton';
@@ -7,8 +8,8 @@ const Header = (props) => {
     <Fragment>
       <header className={style.header}>
         <img
-          src=""
-          alt=""
+          src={logo}
+          alt="unpretty-farm "
         />
         <ul>
           <li>못난이 매칭</li>

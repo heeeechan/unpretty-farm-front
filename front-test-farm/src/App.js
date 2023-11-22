@@ -1,8 +1,12 @@
-import logo from "./logo.svg";
+
+import { Fragment } from 'react';
 import "./App.css";
+import Header from './components/Layout/Header';
 
 function App() {
-    return <div className="App">FARM</div>;
+    return <Fragment>
+        <Header/>
+    </Fragment>;
 }
 
 export default App;
