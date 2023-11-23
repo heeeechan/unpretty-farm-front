@@ -1,0 +1,26 @@
+main {
+  background-size: cover;
+  /* z-index: 0; */
+  overflow: hidden;
+  margin-top: 80px;
+}
+
+p {
+  background-color: #464c3a;
+  color: white;
+}
+
+.p1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.main-image {
+
+}
+
+main img {
+  width: 100%;
+  height: 900px;
+  object-fit: cover;
+  filter: brightness(0.5);
+}
